@@ -1,0 +1,26 @@
+ls => listing all files in current directory
+
+git init => repo initialize 
+
+ls -a 
+
+git add . => all file staging area => . all files in current directory
+ = git add index.html
+
+git commit -m "message" => create a copy of current code (snapshot)
+
+git log => list all commit
+
+git remote add origin git@github.com:rj7shakya/git_test.git => links local repo to remote repo
+
+git remote -v => lists all the linked remote repos
+
+git push origin branch_name
+
+git branch => list all the branches
+
+
+future commits :
+- git add .
+- git commit -m 'small changes'
+- git push origin branch_name
